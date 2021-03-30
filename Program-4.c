@@ -8,15 +8,15 @@
 //Enter a string: Vidyavardhaka
 //The length of string = 13
 
-#include <stdio.h>
 int main()
 {
- 
-    // Declare the required variables
-    printf("Enter a string: ");
-    scanf("%s",str);
-    for(i=0; str[i]!='\0'; ++i);
-       printf("The length of string = );
-       //Complete the missing code in result printing statement
+    char Str[1000];
+    int i;
+  
+    printf("Enter the String: ");
+    scanf("%s", Str);
+  str1=strlen(str1);
+    printf("Length of Str is %ld", str);
+  
     return 0;
 }
